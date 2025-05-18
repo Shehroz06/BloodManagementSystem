@@ -7,8 +7,8 @@ height:500px;
 }
 
 .logo{
-width:130px;
-height:90px;
+width:150px;
+height:70px;
 }
 body { 
   margin: 0;
@@ -17,7 +17,7 @@ body {
 
 .header {
   overflow: hidden;
-  background-color:#B0C4DE;
+  background-color:#C49867 !important;
   padding: 20px 10px;
 }
 
@@ -39,7 +39,7 @@ body {
 
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color:rgba(196,152,103,255);
   color: white;
 }
 

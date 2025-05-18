@@ -34,7 +34,7 @@ try
 {
 Connection con=ConnectionProvider.getCon();
 Statement st=con.createStatement();
-ResultSet rs=st.executeQuery("select *from donor where id='"+id+"'");
+ResultSet rs=st.executeQuery("select * from donors where id='"+id+"'");
 while(rs.next())
 {
 %>

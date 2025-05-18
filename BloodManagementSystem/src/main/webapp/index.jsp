@@ -17,16 +17,14 @@ input[type="text"], input[type="mail"]
 <body>
 
 <div class="header">
-  <a href="#default" class="logo"><img class="logo" src="Logo1.png"></a>
+  <a href="index.jsp" class="logo"><img class="logo" src="BloodLink.png"></a>
   <div class="header-right">
-    <a class="active" href="index.jsp">Home</a>
     <a href="adminLogin.jsp">Admin Login</a>
   </div>
 </div>
 
 <div style="max-width:100%">
-  <img class="mySlides"  src="slide1.jpg" >
-  <img class="mySlides"  src="slide2.png" >
+  <img class="mySlides"  src="Index.png" >
 </div>
 <script>
 var myIndex = 0;
@@ -75,12 +73,9 @@ if ("valid".equals(msg)) {
   </div>
 </div>
 
-<div class="row1"> 
-<div class="container"> 
 <br>         
 <br>
-    </tbody>
-  </table>
+ 
 </div>
 </div>
 

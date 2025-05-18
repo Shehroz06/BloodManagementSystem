@@ -13,7 +13,7 @@
 
     try {
         Connection con = ConnectionProvider.getCon();
-        PreparedStatement ps = con.prepareStatement("INSERT INTO donor VALUES (?,?,?,?,?,?,?,?,?)");
+        PreparedStatement ps = con.prepareStatement("INSERT INTO donors VALUES (?,?,?,?,?,?,?,?,?)");
         
         ps.setString(1, id); 
         ps.setString(2, name); 

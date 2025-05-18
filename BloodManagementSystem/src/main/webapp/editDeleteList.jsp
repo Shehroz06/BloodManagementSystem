@@ -64,7 +64,7 @@ if ("valid".equals(msg)) {
 try { 
     Connection con = ConnectionProvider.getCon(); 
     Statement st = con.createStatement(); 
-    ResultSet rs = st.executeQuery("select * from donor"); 
+    ResultSet rs = st.executeQuery("select * from donors"); 
     while(rs.next()) { 
 %>
 <tr>

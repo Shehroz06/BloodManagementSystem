@@ -43,7 +43,7 @@ if ("valid".equals(msg)) {
     try {
         Connection con = ConnectionProvider.getCon();
         Statement st = con.createStatement();
-        ResultSet rs = st.executeQuery("select max(id) from donor");
+        ResultSet rs = st.executeQuery("select max(id) from donors");
         if (rs.next()) {
             id = rs.getInt(1);
             id = id + 1;

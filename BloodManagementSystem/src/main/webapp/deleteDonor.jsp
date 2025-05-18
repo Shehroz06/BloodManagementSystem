@@ -6,7 +6,7 @@ try
 {
 	Connection con=ConnectionProvider.getCon();
 	Statement st=con.createStatement();
-	st.executeUpdate("delete from donor where id='"+id+"'");
+	st.executeUpdate("delete from donors where id='"+id+"'");
 	response.sendRedirect("editDeleteList.jsp?msg=deleted");
 }
 catch(Exception e)

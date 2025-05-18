@@ -12,7 +12,7 @@
     try {
         Connection con = ConnectionProvider.getCon();
         PreparedStatement ps = con.prepareStatement(
-            "UPDATE donor SET name = ?, father = ?, mother = ?, mobilenumber = ?, email = ?, address = ? WHERE id = ?"
+            "UPDATE donors SET name = ?, father = ?, mother = ?, mobilenumber = ?, email = ?, address = ? WHERE id = ?"
         );
         
         ps.setString(1, name); 

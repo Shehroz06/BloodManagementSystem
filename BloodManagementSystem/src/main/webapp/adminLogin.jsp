@@ -18,10 +18,9 @@ input[type="text"], input[type="password"], input[type="submit"]
 </head>
 <body>
 <div class="header">
-  <a href="#default" class="logo"><img class="logo" src="Logo1.png"></a>
+  <a href="index.jsp" class="logo"><img class="logo" src="BloodLink.png"></a>
   <div class="header-right">
-    <a href="index.jsp">Home</a>
-    <a class="active" href="adminLogin.jsp">Admin Login</a>
+    <a class="active" href="index.jsp">Back</a>
   </div>
 </div>
 <body>
